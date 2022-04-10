@@ -1,5 +1,5 @@
 #!/bin/bash
-CODEPIX_DIR=../../codepix
+CODEPIX_DIR=$(pwd)/../../codepix
 ENV_FILE=$CODEPIX_DIR/.env
 DOCKER_COMPOSE_FILE=$CODEPIX_DIR/docker-compose.yaml
 

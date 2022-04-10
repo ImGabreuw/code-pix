@@ -1,5 +1,5 @@
 #!/bin/bash
-BANK_API_DIR=../../bank-api
+BANK_API_DIR=$(pwd)/../../bank-api
 ENV_FILE=$BANK_API_DIR/.env
 DOCKER_COMPOSE_FILE=$BANK_API_DIR/docker-compose.yaml
 
